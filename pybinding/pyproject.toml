@@ -3,14 +3,37 @@ requires = ["maturin>=1.0,<2.0"]
 build-backend = "maturin"
 
 [project]
-name = "toon-python"
-version = "0.1.1"
-description = "Token-Oriented Object Notation for Python"
+name = "toon-pyrs"
+version = "0.1.2"
+description = "Rust-based Python bindings for Token-Oriented Object Notation"
+readme = "README.md"
 requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Jad Jabbour", email = "jad.jabbour@cryptoware.me"}
+]
+keywords = ["llm", "json", "serialization", "encoding", "toon", "token-efficient"]
 classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Programming Language :: Rust",
     "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Software Development :: Libraries :: Python Modules",
 ]
+
+[project.urls]
+Homepage = "https://github.com/JadJabbour/toon-rs"
+Repository = "https://github.com/JadJabbour/toon-rs"
+Issues = "https://github.com/JadJabbour/toon-rs/issues"
 
 [tool.maturin]
 module-name = "toon"

@@ -211,7 +211,7 @@ Python bindings are available in the `pybinding/` directory.
 ### Installation
 
 ```bash
-pip install toon-python
+pip install toon-pyrs
 ```
 
 Or build from source:

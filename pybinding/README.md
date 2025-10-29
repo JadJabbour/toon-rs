@@ -1,6 +1,6 @@
-# TOON Python Bindings
+# TOON Python Bindings (toon-pyrs)
 
-Python bindings for TOON (Token-Oriented Object Notation).
+Rust-based Python bindings for TOON (Token-Oriented Object Notation).
 
 ## Build and Install
 
