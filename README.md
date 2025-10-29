@@ -204,6 +204,59 @@ pub enum Delimiter {
 - **Mixed arrays**: List format with `- ` prefix
 - **Quoting**: Only when necessary (special chars, structural ambiguity)
 
+## Python Bindings
+
+Python bindings are available in the `pybinding/` directory.
+
+### Installation
+
+```bash
+pip install toon-python
+```
+
+Or build from source:
+
+```bash
+cd pybinding
+pip install maturin
+maturin build --release
+pip install target/wheels/*.whl
+```
+
+### Python Usage
+
+```python
+import json
+import toon
+
+data = {
+    "users": [
+        {"id": 1, "name": "Alice", "role": "admin"},
+        {"id": 2, "name": "Bob", "role": "user"}
+    ]
+}
+
+result = toon.encode(json.dumps(data))
+print(result)
+```
+
+Output:
+
+```
+users[2]{id,name,role}:
+  1,Alice,admin
+  2,Bob,user
+```
+
+### Publishing Python Package
+
+```bash
+cd pybinding
+maturin build --release
+pip install twine
+twine upload target/wheels/*
+```
+
 ## License
 
 MIT License © 2025

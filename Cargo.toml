@@ -1,8 +1,8 @@
 [package]
 name = "toon"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
-authors = ["Jad Jabbour <jad.jabbour@cryptoware.me>"]
+authors = ["Jad Jabbour <jabbourj.87@gmail.com>"]
 description = "Token-Oriented Object Notation – a token-efficient JSON alternative for LLM prompts"
 license = "MIT"
 repository = "https://github.com/JadJabbour/toon-rs"

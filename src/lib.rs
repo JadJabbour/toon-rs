@@ -31,6 +31,7 @@ mod types;
 mod writer;
 
 pub use types::{Delimiter, EncodeOptions};
+pub use serde_json;
 
 use normalize::normalize_value;
 use encoders::encode_value;
