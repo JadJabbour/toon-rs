@@ -204,14 +204,6 @@ pub enum Delimiter {
 - **Mixed arrays**: List format with `- ` prefix
 - **Quoting**: Only when necessary (special chars, structural ambiguity)
 
-## Comparison with JavaScript Version
-
-This Rust implementation aims for feature parity with the original JS version. Note:
-
-- **Object key ordering**: Rust's `HashMap` doesn't preserve insertion order by default, so keys are sorted alphabetically (consider using `IndexMap` for insertion order)
-- **Performance**: Rust's compile-time guarantees and zero-cost abstractions make this implementation fast
-- **Type safety**: Rust's type system provides compile-time guarantees
-
 ## License
 
 MIT License © 2025
