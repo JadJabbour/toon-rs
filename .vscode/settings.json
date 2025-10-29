@@ -1,0 +1,20 @@
+{
+  "rust-analyzer.showUnlinkedFileNotification": false,
+  "editor.tabSize": 4,
+  "cSpell.words": [
+    "AMPQ",
+    "amqprs",
+    "dbidx",
+    "dbname",
+    "dtos",
+    "endregion",
+    "impls",
+    "jsonwebtoken",
+    "modql",
+    "thiserror",
+    "Vals",
+    "haqq",
+    "schemars",
+    "reqwest"
+  ]
+}
