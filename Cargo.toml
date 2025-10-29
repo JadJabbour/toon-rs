@@ -1,6 +1,6 @@
 [package]
 name = "toon"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Jad Jabbour <jad.jabbour@cryptoware.me>"]
 description = "Token-Oriented Object Notation – a token-efficient JSON alternative for LLM prompts"
