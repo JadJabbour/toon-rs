@@ -2,10 +2,10 @@
 name = "toon"
 version = "0.1.0"
 edition = "2021"
-authors = ["Your Name <you@example.com>"]
+authors = ["Jad Jabbour <jad.jabbour@cryptoware.me>"]
 description = "Token-Oriented Object Notation – a token-efficient JSON alternative for LLM prompts"
 license = "MIT"
-repository = "https://github.com/yourusername/toon-rs"
+repository = "https://github.com/JadJabbour/toon-rs"
 keywords = ["llm", "json", "serialization", "encoding"]
 categories = ["encoding", "text-processing"]
 
