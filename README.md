@@ -1,5 +1,7 @@
 # TOON (Token-Oriented Object Notation) - Rust
 
+[![Crates.io](https://img.shields.io/crates/v/toon)](https://crates.io/crates/toon)
+
 A Rust implementation of Token-Oriented Object Notation (TOON), a compact, human-readable format designed for passing structured data to Large Language Models with significantly reduced token usage.
 
 This is a Rust port of the original JavaScript/TypeScript implementation: [@byjohann/toon](https://github.com/johannschopplich/toon).
